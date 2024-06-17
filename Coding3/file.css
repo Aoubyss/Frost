@@ -1,0 +1,73 @@
+#imgbackground{
+    
+        background-image: url(forest.jpg);
+        background-repeat: no-repeat; 
+        background-size: cover;  
+        height: 100vh;
+      
+}
+
+
+*{
+        padding: 0;
+        margin: 0;
+}
+
+
+.Name{
+        font-size: 2em;
+        color: darkorange;
+
+}
+header{
+        color: white;
+        position: fixed;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 100px;
+        background: url(gradientpb.jpg);
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: space-between;
+        align-items: center ;
+        z-index: 99;
+        
+        
+}
+.Name{
+        
+        font-size: 3em;
+        color: red;
+        -webkit-text-stroke: 1px rgb(125, 181, 255);
+        user-select: none;
+        margin-left: 5% ;
+
+}
+.buttons{
+        color: aqua;
+        text-decoration: none;
+        font-size: 1.2em;
+       text-shadow: aqua;
+        justify-content: space-between ;
+        margin-right: 15%;
+        font-weight: 500;
+
+}    
+
+.login{
+        
+        color: blueviolet;
+        font-weight: 200px;
+        position: center;
+
+        
+
+}
+#photo {
+        background-image: url(explore.jpg);
+        background-size: contain;
+        position: fixed;
+
+}
